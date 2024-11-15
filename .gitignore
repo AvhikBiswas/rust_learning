@@ -1,0 +1,44 @@
+# Compiled artifacts
+/target/
+
+# Backup files
+*.rs.bk
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Rust-specific files
+**/*.log
+*.toml
+
+# Cargo lock files (only for libraries, not for applications)
+Cargo.lock
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+
+# Debugger files
+*.pdb
+
+# Windows executables
+*.exe
+
+# Generated documentation
+/doc/
+
+# Editor-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Rust-specific artifacts
+*.rlib
+*.d
